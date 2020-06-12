@@ -1,0 +1,151 @@
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a, blockquote {
+    margin-top: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: bisque;  
+  margin: 0;
+  padding-left: 10%;
+  padding-right: 10%;      
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(fonts/PauraqueSerifRoughRegular-VRVw.ttf);
+}
+
+@font-face {
+  font-family: myFont2;
+  src: url(fonts/scriptin.ttf);
+}
+
+@font-face {
+  font-family: myFont3;
+  src: url(fonts/grandhotel.ttf);
+}
+
+@font-face {
+  font-family: myFont4;
+  src: url(fonts/Georgina.ttf);
+}
+
+
+.bgimg {
+    position: relative;
+}
+
+.bgimg .heading h2 {
+  position: absolute;
+  left: 10%;
+  top:10%;
+  font-size: 6vw;
+  color: sandybrown;
+  text-transform: capitalize;
+  font-family: myFont;
+  letter-spacing: 7px; 
+  text-align: center;
+}
+
+
+.bgimg .slideshow {
+  opacity: 1;
+  height: auto;
+  width: 99.8%;
+  padding: 10px 10px 10px 10px;
+  box-sizing: border-box;
+}
+
+
+.mybody h1 {
+  font-family: myFont2;
+  text-align: center;
+  font-size: 4vw;    
+  padding-left: 20%;
+  padding-right: 20%;    
+}
+
+.mybody p {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.mybody h1 {
+  background-image: url(images/paper.jpg);
+  padding-bottom: 10px;  
+}
+
+
+.mybody2 {
+  background-image: url(images/wood.jpg);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover; 
+}
+
+.experience {
+    font-size: 6vw;
+    font-family: myFont;
+    padding-top: 3%;
+    padding-left: 7%;    
+}
+
+.sweet {
+    font-family: myFont3;
+    padding-left: 7%;
+    font-size: 5vw;
+    
+}
+
+.brewed {
+    padding-left: 7%;
+    padding-right: 60%;
+    padding-bottom: 3%;
+    font-family: myFont4;
+    font-size: 1.5vh; 
+    color: beige;
+}
+
+.read {
+    font-family: myFont;
+    padding-left: 7%;
+    font-size: 2vw;
+    color: darkred;
+    
+}
+
+.read a:link, a:visited {
+  background-color: darkred;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 12px;
+}
+
+.read a:hover, a:active {
+  background-color: white;
+  color: darkred;
+}
+
+
+.coffeemenu h2{
+  font-family: myFont2;
+  text-align: center;
+  font-size: 4vw;    
+  padding-left: 20%;
+  padding-right: 20%;
+  background-image: url(images/paper.jpg);
+  padding-bottom: 10px;      
+}
+
+.coffeemenu img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-top: -20px;
+}

@@ -1,0 +1,126 @@
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, .h1 a, .h2 a, .h3 a, .h4 a, .h5 a, .h6 a, blockquote {
+    margin-top: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: bisque;  
+  margin: 0;
+  padding-left: 10%;
+  padding-right: 10%;      
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(fonts/PauraqueSerifRoughRegular-VRVw.ttf);
+}
+
+@font-face {
+  font-family: myFont2;
+  src: url(fonts/scriptin.ttf);
+}
+
+@font-face {
+  font-family: myFont3;
+  src: url(fonts/grandhotel.ttf);
+}
+
+@font-face {
+  font-family: myFont4;
+  src: url(fonts/Georgina.ttf);
+}
+
+
+.bgimg {
+    position: relative;
+}
+
+.bgimg .heading h2 {
+  position: absolute;
+  left: 10%;
+  top:10%;
+  font-size: 6vw;
+  color: sandybrown;
+  text-transform: capitalize;
+  font-family: myFont;
+  letter-spacing: 7px; 
+  text-align: center;
+}
+
+
+.bgimg .slideshow {
+  opacity: 1;
+  height: auto;
+  width: 99.8%;
+  padding: 10px 10px 10px 10px;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+
+
+.wrapper{
+  position:
+  top: 50%;
+  left: 50%;
+  max-width:450px;
+  width: 50%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 5px;
+  box-shadow: 4px 4px 2px rgba(254,236,164,1); 
+  font-family: 'Josefin Sans', sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 30px;
+}
+
+.wrapper h2{
+  text-align: center;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #332902;
+}
+
+.wrapper .input_field{
+  margin-bottom: 10px;
+}
+
+.wrapper .input_field input[type="text"],
+.wrapper textarea{
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+
+.wrapper textarea{
+  resize: none;
+  height: 80px;
+}
+
+.wrapper .btn input[type="submit"]{
+  border: 0px;
+  margin-top: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background: #fece0c;
+  color: #332902;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+#error_message{
+  margin-bottom: 20px;
+  background: #fe8b8e;
+  padding: 0px;
+  text-align: center;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
